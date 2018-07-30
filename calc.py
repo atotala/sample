@@ -8,8 +8,6 @@ def mul(x,y):
     return x * y
 
 def div(x,y):
-    if y == 0:
-        raise ValueError("cannot diveide by zero")
     return x/y
 
 
